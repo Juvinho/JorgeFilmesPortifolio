@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Jorge Filmes Portfólio
 
-# Run and deploy your AI Studio app
+Site para a empresa Jorge Filmes.
 
-This contains everything you need to run your app locally.
+## Executar Localmente
 
-View your app in AI Studio: https://ai.studio/apps/drive/1uA_V-sxBzyj9gJz0qsZXkek8OrpALIWf
+**Pré-requisitos:** Node.js
 
-## Run Locally
+1. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-**Prerequisites:**  Node.js
+2. Configure a chave da API do Gemini:
+   Crie um arquivo `.env` ou `.env.local` e adicione sua chave:
+   ```
+   VITE_GEMINI_API_KEY=sua_chave_aqui
+   ```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3. Execute o projeto:
+   ```bash
+   npm run dev
+   ```
